@@ -10,6 +10,3 @@
 
 <!-- Page level plugins -->
 <script src="/tmpl/vendor/chart.js/Chart.min.js" type="text/javascript"></script>
-
-<!-- Page level custom scripts -->
-<script src="/tmpl/js/demo/chart-area-demo.js" type="text/javascript"></script>

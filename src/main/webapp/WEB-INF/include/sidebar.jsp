@@ -57,6 +57,7 @@
              data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Account</h6>
+                <a class="collapse-item" href="#">계정 등록</a>
                 <a class="collapse-item" href="#">계정 목록</a>
                 <a class="collapse-item" href="#">권한 이관</a>
                 <a class="collapse-item" href="#">이력 관리</a>

@@ -23,7 +23,7 @@
 
                         <!-- Page Heading -->
                         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                            <h1 class="h3 mb-0 text-gray-800">진행 중인 회의</h1>
+                            <h1 class="h3 mb-0 text-gray-800">회의 집계</h1>
                             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                                 <i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                         </div>
@@ -37,8 +37,9 @@
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                    Earnings (Monthly)</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                                    진행 예정인 회의
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">진행 예정 회의 입니다.</div>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -55,8 +56,11 @@
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                    Earnings (Annual)</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                                    내가 주최 한 회의
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                    내가 주최 한 회의 - 1
+                                                </div>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -72,11 +76,11 @@
                                     <div class="card-body">
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
-                                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">남은 방
                                                 </div>
                                                 <div class="row no-gutters align-items-center">
                                                     <div class="col-auto">
-                                                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                                                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">5/10</div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="progress progress-sm mr-2">
@@ -102,8 +106,11 @@
                                         <div class="row no-gutters align-items-center">
                                             <div class="col mr-2">
                                                 <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                    Pending Requests</div>
-                                                <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                                    가장 최근에 종료된 회의
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                    방금 끝난 회의 입니다.
+                                                </div>
                                             </div>
                                             <div class="col-auto">
                                                 <i class="fas fa-comments fa-2x text-gray-300"></i>
@@ -155,7 +162,7 @@
                                     <!-- Card Header - Dropdown -->
                                     <div
                                             class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                        <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">회의 주제</h6>
                                         <div class="dropdown no-arrow">
                                             <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -178,13 +185,13 @@
                                         </div>
                                         <div class="mt-4 text-center small">
                                                 <span class="mr-2">
-                                                    <i class="fas fa-circle text-primary"></i> Direct
+                                                    <i class="fas fa-circle text-primary"></i> 복지
                                                 </span>
                                             <span class="mr-2">
-                                                    <i class="fas fa-circle text-success"></i> Social
+                                                    <i class="fas fa-circle text-success"></i> 행정
                                                 </span>
                                             <span class="mr-2">
-                                                    <i class="fas fa-circle text-info"></i> Referral
+                                                    <i class="fas fa-circle text-info"></i> 사무
                                                 </span>
                                         </div>
                                     </div>
@@ -201,7 +208,7 @@
                                 <!-- Project Card Example -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">음성 서버 이용률</h6>
                                     </div>
                                     <div class="card-body">
                                         <h4 class="small font-weight-bold">Server Migration <span
@@ -312,19 +319,17 @@
                                 <!-- Illustrations -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">Info</h6>
                                     </div>
                                     <div class="card-body">
                                         <div class="text-center">
-                                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
-                                                 src="/tmpl/img/undraw_posting_photo.svg" alt="...">
+                                            <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="/tmpl/img/main_illu.svg" alt="...">
                                         </div>
-                                        <p>Add some quality, svg illustrations to your project courtesy of <a
-                                                target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a
-                                            constantly updated collection of beautiful svg images that you can use
-                                            completely free and without attribution!</p>
-                                        <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
-                                            unDraw &rarr;</a>
+                                        <p>인공지능 회의록지원시스템은 화자별 발언내용을 음성인식 기술을 이용하여 자동으로 회의록 작성을 지원하는 시스템입니다.
+                                            이 시스템은 화자를 구분하여 음성인식 하고 실시간 수정 및 키워드 추출 기능을 제공합니다.</p>
+                                        <a target="_blank" rel="nofollow" href="#">
+                                            메뉴얼 다운로드
+                                        </a>
                                     </div>
                                 </div>
 
@@ -334,11 +339,8 @@
                                         <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
                                     </div>
                                     <div class="card-body">
-                                        <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce
-                                            CSS bloat and poor page performance. Custom CSS classes are used to create
-                                            custom components and custom utility classes.</p>
-                                        <p class="mb-0">Before working with this theme, you should become familiar with the
-                                            Bootstrap framework, especially the utility classes.</p>
+                                        <p>2019.07에 시작한 내 인생 첫 프로젝트 클론 코딩</p>
+                                        <p class="mb-0">node로 음성 서버를 만들어야함</p>
                                     </div>
                                 </div>
 
@@ -372,26 +374,11 @@
             <i class="fas fa-angle-up"></i>
         </a>
 
-        <!-- Logout Modal-->
-        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a class="btn btn-primary" href="login.html">Logout</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <jsp:include page="../include/logoutLayPop.jsp"/>
 
+        <!-- Page level custom scripts -->
+        <script src="/tmpl/js/demo/chart-area-demo.js" type="text/javascript"></script>
+        <script src="/tmpl/js/demo/chart-pie-demo.js" type="text/javascript"></script>
     </body>
 
 </html>
