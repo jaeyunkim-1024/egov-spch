@@ -15,7 +15,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="/">
+        <a class="nav-link" href="/main">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>메인</span>
         </a>
@@ -39,9 +39,9 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Settings</h6>
-                <a class="collapse-item" href="#">음성 서버 관리</a>
-                <a class="collapse-item" href="#">마이크 관리</a>
-                <a class="collapse-item" href="#">회의장소 관리</a>
+                <a class="collapse-item" href="/setting/server">음성 서버 관리</a>
+                <a class="collapse-item" href="/setting/mic">마이크 관리</a>
+                <a class="collapse-item" href="/setting/room">회의장소 관리</a>
             </div>
         </div>
     </li>
@@ -57,8 +57,8 @@
              data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Account</h6>
-                <a class="collapse-item" href="#">계정 등록</a>
-                <a class="collapse-item" href="#">계정 목록</a>
+                <a class="collapse-item" href="/account">계정 등록</a>
+                <a class="collapse-item" href="/account/1">계정 목록</a>
                 <a class="collapse-item" href="#">권한 이관</a>
                 <a class="collapse-item" href="#">이력 관리</a>
             </div>

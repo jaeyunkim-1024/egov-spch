@@ -10,7 +10,7 @@ import org.springframework.core.env.Environment;
 @Configuration
 @RequiredArgsConstructor
 @PropertySource("classpath:error.properties")
-public class WebConfig {
+public class PropertyConfig {
     private final Environment env;
     public String getProperty(String key){
         return env.getProperty(key);

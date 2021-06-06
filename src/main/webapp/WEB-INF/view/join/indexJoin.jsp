@@ -17,40 +17,44 @@
                 <div class="card-body p-0">
                     <!-- Nested Row within Card Body -->
                     <div class="row">
-                        <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                        <div class="col-lg-7">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">LOGIN</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">회원 가입</h1>
                                 </div>
                                 <form class="user">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control form-control-user"
-                                               id="exampleInputEmail" aria-describedby="emailHelp"
-                                               placeholder="이메일을 입력하세요.">
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="성">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control form-control-user" id="exampleLastName"  placeholder="이름">
+                                        </div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control form-control-user"
-                                               id="exampleInputPassword" placeholder="비밀번호 8~16자리">
+                                        <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="이메일">
                                     </div>
-                                    <div class="form-group">
-                                        <div class="custom-control custom-checkbox small">
-                                            <input type="checkbox" class="custom-control-input" id="customCheck">
-                                            <label class="custom-control-label" for="customCheck">자동 로그인</label>
+                                    <div class="form-group row">
+                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="비밀번호 8~16 자리">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="password" class="form-control form-control-user" id="exampleRepeatPassword">
                                         </div>
                                     </div>
                                     <a href="/main" class="btn btn-primary btn-user btn-block">
-                                        Login
+                                        회원 가입
                                     </a>
                                     <hr>
                                     <a href="/main" class="btn btn-google btn-user btn-block">
-                                        <i class="fab fa-google fa-fw"></i> Google 로그인
+                                        <i class="fab fa-google fa-fw"></i> Google 회원 가입
                                     </a>
                                     <a href="/main" class="btn btn-facebook btn-user btn-block">
-                                        <i class="fab fa-facebook-f fa-fw"></i> FaceBook 로그인
+                                        <i class="fab fa-facebook-f fa-fw"></i> FaceBook 회원 가입
                                     </a>
                                     <a href="/main" class="btn btn-github btn-user btn-block" style="background-color: black;color: #fff;">
-                                        <i class="fab fa-github fa-fw"></i> Github 로그인
+                                        <i class="fab fa-github fa-fw"></i> Github 회원 가입
                                     </a>
                                 </form>
                                 <hr>
@@ -58,7 +62,7 @@
                                     <a class="small" href="/common/find-pswd">비밀번호 찾기</a>
                                 </div>
                                 <div class="text-center">
-                                    <a class="small" href="/join">회원 가입</a>
+                                    <a class="small" href="/login-home">로그인 하기</a>
                                 </div>
                             </div>
                         </div>
